@@ -4,7 +4,7 @@ def is_leap_year(year):
         # If divisible by 100, it should also be divisible by 400
         if year % 100 == 0:
             return year % 400 == 0
-        else:
+        
             return True
     else:
         return False
